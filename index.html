@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RN Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<main>
+    <header>
+        <h1>RN</h1>
+    </header>
+    <section class="project-container">
+        <h2>Projekty</h2>
+        <span class = "tagline">rozvojové projekty</span>
+        <ul class="filter-menu">
+            <li data-target="all" class = "current">Vše</li>
+            <li data-target="css">HTML & CSS</li>
+            <li data-target="js">JS</li>
+            <li data-target="api">API</li>
+        </ul>
+        <ul class="project-grid">
+            <li class="project__grid-item" data-item="js">
+
+                <a href="https://tip-calculator-app-main-seven.vercel.app/" target="_blank">
+                    <img src="./img/tipcalc.jpg" alt="">
+                <h3 class="project-title">Tip calculator</h3>
+                <div class="project-description">
+                    <p>Aplikace pro výpočet dýška podle počtu osob a procent dýška<br>
+                    </p>
+                </div>
+                <div class="project-bottom">
+                    <ul class="project-tech-list">
+                        <li>Scss</li>
+                        <li>Js</li>
+                    </ul>
+                </div>
+                </a>
+            </li>
+            <li class="project__grid-item" data-item="js">
+                <a href="https://codepen.io/sqerry-the-vuer/pen/KKyKERm" target="_blank">
+                    <img src="./img/passgen.png" alt="">
+                    <h3 class="project-title">Generátor hesla</h3>
+                    <div class="project-description">
+                        <p>Možnost si vygenerovat heslo podle různých kritérií</p>
+                    </div>
+                    <div class="project-bottom">
+                        <ul class="project-tech-list">
+                            <li>Js</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project__grid-item" data-item="css">
+                <a href="https://soc-media-dashboard.vercel.app/" target="_blank">
+                    <img src="./img/soc.jpg" alt="">
+                    <h3 class="project-title">SOC komponent</h3>
+                    <div class="project-description">
+                        <p>Komponenta pro sociální sítě. Specialitka je přepínání na tmavý/světlý režím podle uživatelských systémových preferencí</p><br>
+                        <p>Použití normalize.css, BEM, mixiny, velké užití Scss</p>
+                    </div>
+                    <div class="project-bottom">
+                        <ul class="project-tech-list">
+                            <li>Scss</li>
+                            <li>BEM</li>
+                            <li>Js</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project__grid-item" data-item="css">
+                <a href=https://sunny-landing-page-one.vercel.app/" target="_blank">
+                    <img src="./img/sunny.png" alt="">
+                    <h3 class="project-title">Landing page</h3>
+                    <div class="project-description">
+                        <p>Použití vlastních utility tříd, používání relativních jednotek, mobile first</p>
+                    </div>
+                    <div class="project-bottom">
+                        <ul class="project-tech-list">
+                            <li>Scss</li>
+                            <li>BEM</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project__grid-item" data-item="api">
+                <a href="https://ip-adress-tracker-black.vercel.app/" target="_blank">
+                    <img src="./img/iptracker.png" alt="">
+                    <h3 class="project-title">Lokace podle IP adresy</h3>
+                    <div class="project-description">
+                        <p>Aplikace pro vyhledání lokace dle zadané IPv4 nebo IPv6 adresy</p><br>
+                        <p>
+                            - Fetch API</p>
+                        <p>   - použití LeafletJs</p>
+                        <p>
+                            - použití Ipify API</p>
+
+                    </div>
+                    <div class="project-bottom">
+                        <ul class="project-tech-list">
+                            <li>API</li>
+                            <li>Js</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project__grid-item" data-item="js">
+                <a href="https://pomodoro-timer-main-omega.vercel.app/" target="_blank">
+                    <img src="./img/pomodoro.png" alt="">
+                    <h3 class="project-title">Pomodoro timer</h3>
+                    <div class="project-description">
+                        <p>Aplikace pro časování aktivit metodou Pomodoro cyklů</p>
+                        <br>
+                        <p>- Práce s časem</p>
+                        <p>- Práce se zvuky</p>
+                    </div>
+                    <div class="project-bottom">
+                        <ul class="project-tech-list">
+                            <li>Scss</li>
+                            <li>Js</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project__grid-item" data-item="js">
+                <a href="https://pig-game-delta.vercel.app/" target="_blank">
+                    <img src="./img/piggame.png" alt="">
+                    <h3 class="project-title">Pig game</h3>
+                    <div class="project-description">
+                        <p>Hra ve které se 2 hráči snaží získat 100 bodů první. Zpracováno v rámci
+                            The Complete JavaScript Course 2022</p>
+                    </div>
+                    <div class="project-bottom">
+                        <ul class="project-tech-list">
+                            <li>Js</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="project__grid-item" data-item="css">
+                <a href="#">
+                    <img src="./img/Screenshot_28.png" alt="">
+                    <h3 class="project-title">Portfolio</h3>
+                    <div class="project-description">
+                        <p>- Práce s filtrací</p>
+                        <p>- Chytřejší způsob jak dodržet layout</p>
+                    </div>
+                    <div class="project-bottom">
+                        <ul class="project-tech-list">
+                            <li>Js</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+
+
+        </ul>
+
+    </section>
+</main>
+
+</body>
+
+</html>
+<script src="app.js"></script>
