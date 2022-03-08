@@ -16,7 +16,7 @@ for(let i = 0; i < sortBtn.length; i++){
             sortItem[k].classList.remove('active');
             sortItem[k].classList.add('hide');
 
-            if(sortItem[k].getAttribute('data-item') == targetData || targetData == "all"){
+            if(sortItem[k].getAttribute('data-item') === targetData || targetData === "all"){
                 sortItem[k].classList.remove('hide');
                 sortItem[k].classList.add('active');
             }

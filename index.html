@@ -2,20 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>RN Portfolio</title>
+    <title>RN | Robert Nguyen</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/acb12ed120.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
 </head>
 <body>
 <main>
     <header>
-        <h1>RN</h1>
+        <a href="#" class="logo"><h1>RN.</h1></a>
+        <a href="./upload/nguyen_fe_cv.pdf" class="btn" target="_blank">Resume</a>
     </header>
-    <section class="project-container">
-        <h2>Projekty</h2>
+    <section class="featured-projects container">
+        <h2 class = "align-left heading featured-heading h"><i class="ri-briefcase-line"></i><span>Nějaké me projekty</span></h2>
+        <div class="featured-project__item">
+            <div class="featured-project__item-image">
+                <a href="https://www.bamboolik.cz/" target="_blank"><img src="./img/bamboolik.png" alt="" class="featured-image"></a>
+            </div>
+            <div class="featured-project__content">
+                <div class="tagline">Shoptet</div>
+                <h2 class="heading">Bamboolík</h2>
+                <div class="text-content">
+                    Přestylování šablony <a href="https://merkur.paxio.cz/" target="_blank">Merkur</a> podle grafického návrhu ve dvou jazykových mutacích. Stylování celého frontendu. Programování řada funkcí včetně odlišného zobrazení
+                    pro B2B zákazníky.
+                </div>
+                <ul class="project-tech-list">
+                    <li>Kódování</li>
+                    <li>Programování</li>
+                    <li>Less</li>
+                    <li>Shoptet Premium</li>
+                </ul>
+                <a href="https://www.bamboolik.cz/" target="_blank">
+                    <i class="ri-external-link-line"></i>
+                </a>
+            </div>
+        </div>
+        <div class="featured-project__item featured-left">
+            <div class="featured-project__item-image">
+                <a href="https://www.liviny.cz/" target="_blank"><img src="./img/liviny.png" alt="" class="featured-image"></a>
+            </div>
+            <div class="featured-project__content">
+                <div class="tagline">Shoptet</div>
+                <h2 class="heading">Liviny</h2>
+                <div class="text-content">
+                    Kompletní přestylování šablony <a href="https://classic.shoptet.cz/" target="_blank">Classic</a> podle grafického návrhu. Řada individuálních funkcí například dynamické
+                    zobrazení náhledových obrázků, popisků a nadpisů u produktů na úvodní stránce z dat administrace Shoptet.
+
+                </div>
+                <ul class="project-tech-list">
+                    <li>Kódování</li>
+                    <li>Programování</li>
+                </ul>
+                <a href="https://www.liviny.cz/" target="_blank">
+                    <i class="ri-external-link-line"></i>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <section class="project-container container">
+        <h2 class = "heading">Projekty</h2>
         <span class = "tagline">rozvojové projekty</span>
         <ul class="filter-menu">
             <li data-target="all" class = "current">Vše</li>
@@ -25,7 +76,6 @@
         </ul>
         <ul class="project-grid">
             <li class="project__grid-item" data-item="js">
-
                 <a href="https://tip-calculator-app-main-seven.vercel.app/" target="_blank">
                     <img src="./img/tipcalc.jpg" alt="">
                 <h3 class="project-title">Tip calculator</h3>
